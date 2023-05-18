@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-content{
+padding-top: 150px;
+}
+
+body{
+    background-position: top center;
+    background-image: url('./tela-inicial.png');
+    background-repeat: no-repeat;
+    background-size: 100vh 100vw;
+    height: auto;
+    background-size: cover;
+}
+.title-container{
+    box-sizing: border-box;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#333333;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+    font-style: normal;
+
+}
+
+.button-container{
+    padding-top:20px ;
+    text-align: center;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.btn{
+    height: 40px;
+    width: 180px;
+    font-size: 14px;
+    background-color: #333333;
+    color: #CCCCCC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 100px;
+    box-sizing:border-box;
+    cursor:pointer; 
+    border-style: none;      
+}
+
+.worklink{
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover{
+    background: #CCCCCC;
+    border-style: none;
+    color: rgb(44, 41, 41);
+    transition: 0,2s;
+}
+
+.socialIcon{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 20px;
+    }
+
+.bi{
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+    color: black;
+}
+
+.bi:hover{
+    color: #CCCCCC;
+}
+
+
+
+@media(max-width: 580px) {
+    body{
+     background-size:cover
+    }
+     .title-container{
+     font-size: 20px;    
+    } 
+ 
+    .button-container{
+     font-size: 8px;
+ }
+ .btn{
+     height: 35px;
+     width: 140px;
+     font-size: 10px;
+ }
+ .bi{
+     font-size: 15px;
+     margin: 15px;
+ }
+ }

@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.a-logo{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: #eeee;
+    font-size: 22px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-container{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    color: #eeee;
+}
+
+.socialIcon{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.bi{
+    font-size: 18px;
+    color: #eeee;
+    margin: 5px;
+}
